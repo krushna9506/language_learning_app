@@ -1,0 +1,23 @@
+[
+  {
+    "sentence": "Bonjour comment allez vous",
+    "word_count": 4,
+    "avg_word_length": 5.75,
+    "complexity_score": 38.4,
+    "proficiency_tier": "A1 - Beginner"
+  },
+  {
+    "sentence": "Nous préparons un magnifique voyage à Paris pour l'été",
+    "word_count": 9,
+    "avg_word_length": 5.11,
+    "complexity_score": 51.4,
+    "proficiency_tier": "B1 - Intermediate"
+  },
+  {
+    "sentence": "L'infaillibilité du système d'apprentissage automatique nécessite une évaluation rigoureuse",
+    "word_count": 9,
+    "avg_word_length": 9.22,
+    "complexity_score": 100.0,
+    "proficiency_tier": "C1 - Advanced"
+  }
+]
