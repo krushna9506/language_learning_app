@@ -87,7 +87,7 @@ Do not include markdown code blocks.`;
             questions: parsed.questions || [
               {
                 question: 'Que fait Pierre dans le parc?',
-                options: ['Il dort', ['Il achète un croissant'], 'Il nage'],
+                options: ['Il dort', 'Il achète un croissant', 'Il nage'],
                 correctIndex: 1,
               }
             ]

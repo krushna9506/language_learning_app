@@ -139,6 +139,7 @@ export const App: React.FC = () => {
               lessons={lessons}
               progressMap={progressMap}
               accentColor={accentColor}
+              currentLanguage={targetLanguage}
               onRecordAttempt={handleRecordAttempt}
             />
           )}

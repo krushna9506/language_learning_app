@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Lesson, UserProgress } from '../../types';
+import { Language, Lesson, UserProgress } from '../../types';
 import { GeminiService } from '../../services/gemini';
 import { LevenshteinScorer } from '../../services/levenshtein';
 import { Volume2, Sparkles, Mic, MicOff, CheckCircle2, RotateCcw } from 'lucide-react';
@@ -8,6 +8,7 @@ interface LessonTabProps {
   lessons: Lesson[];
   progressMap: Record<string, UserProgress>;
   accentColor: string;
+  currentLanguage: Language;
   onRecordAttempt: (lessonId: string, isSuccess: boolean, pronunciationScore?: number) => void;
 }
 
@@ -15,6 +16,7 @@ export const LessonTab: React.FC<LessonTabProps> = ({
   lessons,
   progressMap,
   accentColor,
+  currentLanguage,
   onRecordAttempt,
 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -46,7 +48,7 @@ export const LessonTab: React.FC<LessonTabProps> = ({
     const res = await GeminiService.generateExampleSentence(
       currentLesson.sourceWord,
       currentLesson.translation,
-      'French'
+      currentLanguage
     );
     setCachedSentence(res);
     setIsGenerating(false);

@@ -157,6 +157,17 @@ export const QuizTab: React.FC<QuizTabProps> = ({
 
   const currentLesson = quizLessons[questionIdx];
 
+  if (!currentLesson) {
+    return (
+      <div style={{ maxWidth: '500px', margin: '0 auto', padding: '40px 24px', textAlign: 'center' }}>
+        <h3 style={{ fontSize: '20px', fontWeight: 800, marginBottom: '16px' }}>No questions available</h3>
+        <button className="btn-primary" onClick={() => setSelectedCatId(null)} style={{ backgroundColor: accentColor }}>
+          Back to Quizzes
+        </button>
+      </div>
+    );
+  }
+
   return (
     <div style={{ maxWidth: '600px', margin: '0 auto', padding: '24px', display: 'flex', flexDirection: 'column', height: 'calc(100vh - 100px)' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '24px' }}>
