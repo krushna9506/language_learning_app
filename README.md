@@ -1,5 +1,5 @@
 # 🌐 LinguaPop — Next-Gen AI Language Learning Platform
-[![Live Demo](https://img.shields.io/badge/Live_Demo-GitHub_Pages-brightgreen?style=for-the-badge&logo=githubpages)]((https://krushna9506.github.io/language_learning_app/))
+[![Live Demo](https://img.shields.io/badge/Live_Demo-GitHub_Pages-brightgreen?style=for-the-badge&logo=githubpages)]((https://krushna9506.github.io/language_learning_app/)](https://krushna9506.github.io/language_learning_app))
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
