@@ -1,16 +1,12 @@
-# 🌐 LinguaPop — Next-Gen AI Language Learning Platform
-[![Live Demo](https://img.shields.io/badge/Live_Demo-GitHub_Pages-brightgreen?style=for-the-badge&logo=githubpages)]((https://krushna9506.github.io/language_learning_app/)](https://krushna9506.github.io/language_learning_app))
+# LinguaPop • AI & Spaced Repetition Language Engine
 
+[![Live Demo](https://img.shields.io/badge/LIVE_DEMO-GITHUB_PAGES-4CAF50?style=for-the-badge&logo=github)](https://krushna9506.github.io/language_learning_app/)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Vite](https://img.shields.io/badge/Vite-6.4.3-646CFF?logo=vite)](https://vitejs.dev/)
-[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)](https://reactjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?logo=typescript)](https://www.typescriptlang.org/)
-[![Gemini AI](https://img.shields.io/badge/Google_Gemini-2.5_Flash-8E44AD?logo=google)](https://ai.google.dev/)
-[![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter)](https://flutter.dev/)
+[![Repository](https://img.shields.io/badge/REPOSITORY-KRUSHNA9506%2FLANGUAGE__LEARNING__APP-0088CC?style=for-the-badge&logo=github)](https://github.com/krushna9506/language_learning_app)
 
-> **Internship Evaluation Project**  
-> *A production-ready, full-featured multi-language gamified learning application featuring real-time Google Gemini AI tutoring, Leitner 5-Box Spaced Repetition, speech pronunciation diagnostic scoring, and CEFR AI reader.*
+[![Flutter](https://img.shields.io/badge/FLUTTER-3.X-02569B?style=for-the-badge&logo=flutter)](https://flutter.dev/) [![Tech Stack](https://img.shields.io/badge/TECH_STACK-REACT_18_%7C_VITE-646CFF?style=for-the-badge&logo=react)](https://react.dev/) [![Gemini AI](https://img.shields.io/badge/AI_ENGINE-GEMINI_2.5_FLASH-8E44AD?style=for-the-badge&logo=google)](https://ai.google.dev/) [![License](https://img.shields.io/badge/LICENSE-MIT-4CAF50?style=for-the-badge)](LICENSE) [![Platform](https://img.shields.io/badge/PLATFORM-WEB_%7C_ANDROID_%7C_IOS-8A2BE2?style=for-the-badge)]()
+
+> A production-grade, cross-platform learning application implementing the Leitner 5-Box Spaced Repetition Algorithm, Multi-Turn Google Gemini AI Tutoring, speech pronunciation diagnostic scoring, and interactive CEFR readers. Built with React, TypeScript, Flutter, and modern clean architecture.
 
 ---
 
